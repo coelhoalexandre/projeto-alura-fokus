@@ -107,7 +107,7 @@ focoBt.addEventListener('click', () => {
 });
 
 curtoBt.addEventListener('click', () => {
-    tempoDecorridoEmSegundos = 3;
+    tempoDecorridoEmSegundos = 300;
     alterarContexto('descanso-curto');
     curtoBt.classList.add('active');
 });
