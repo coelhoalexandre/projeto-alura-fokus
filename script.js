@@ -56,6 +56,11 @@ const contagemRegressiva = () => {
     if (tempoDecorridoEmSegundos <= 0) {
         beep.play();
         alert("Tempo finalizado!");
+        const focoAtivo = html.getAttribute('data-contexto') == 'foco';
+        if (focoAtivo) {
+            const evento = new CustomEvent('FocoFinalizado');
+            document.dispatchEvent(evento);
+        };
         zerar();
         return;
     };
@@ -127,5 +132,3 @@ musicaFocoInput.addEventListener('change', () => {
 });
 
 startPauseBt.addEventListener('click', iniciarOuPausar);
-
-console.log(focoBt.classList.contains('active'))
