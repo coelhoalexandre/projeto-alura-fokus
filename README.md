@@ -18,7 +18,6 @@
   - [Desktop Layout](#desktop-layout)
   - [Tablet Layout](#tablet-layout)
   - [Mobile Layout](#mobile-layout)
-- [Adaptações](#adaptações)
 - [Autor](#autor)
 
 ## Sobre o Projeto
@@ -62,6 +61,15 @@ No [curso](https://cursos.alura.com.br/course/javascript-manipulando-elementos-d
 
 Obs.: Todas as tarefas e seus atributos são salvos no seu localStorage, por isso mesmo que reset a página as informações ainda estaram salvas no seu site.
 
+**Forma manual de concluir uma tarefa no console:**
+
+<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/fokus-forma-manual-de-concluir-tarefas.png" alt="Codigos no Console para conclusão de uma tarefa">
+
+```
+const evento = new CustomEvent("FocoFinalizado")
+
+document.dispatchEvent(evento)
+```
 ## Tecnolgias Utilizadas
 
 1. HTML
@@ -72,11 +80,15 @@ Obs.: Todas as tarefas e seus atributos são salvos no seu localStorage, por iss
 
 ### Desktop Layout
 
+**Width 1280px:** https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/fokus-1280px.jpg
+
 ### Tablet Layout
+
+**Width 768px:** https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/fokus-768px.jpg
 
 ### Mobile Layout
 
-## Adaptações
+**Width 480px:** https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/fokus-480px.jpg
 
 ## Autor
 
