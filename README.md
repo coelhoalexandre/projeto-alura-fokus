@@ -22,15 +22,20 @@
 
 ## Sobre o Projeto
 
-Esse projeto foi feito com a instrução de [**Luan Alves**](https://github.com/luanalvesdev), instrutor da Alura.
+Metade deste projeto foi feito com a instrução de [**Luan Alves**](https://github.com/luanalvesdev) no curso [JavaScript: manipulando elementos no DOM](https://cursos.alura.com.br/course/javascript-manipulando-elementos-dom), no qual ele ensina a manipular os elementos no DOM por meio do JavaScript, a parte que é observada pelo temporizador.
 
-No [curso](https://cursos.alura.com.br/course/javascript-manipulando-elementos-dom) ele ensina a manipular os elementos no DOM por meio do JavaScript.
+A outra metade foi com a instrução de [**Vinicios Neves**](https://github.com/viniciosneves) no curso [JavaScript: explorando a manipulação de elementos e da localStorage](https://cursos.alura.com.br/course/javascript-manipulacao-elementos-localstorage), no qual ele ensina, principalmente, a como armazenar e coletar dados do localStorage.
+
+
 
 ## Objetivos do Projeto
 
 - Conhecer métodos de manipulação do DOM;
 - Aprender a alterar atributos e classes de forma dinâmica;
-- Criar interação da página com o usuario.
+- Criar interação da página com o usuario;
+- Gerenciar eventos do usuário;
+- Manipular arrays;
+- Avaliar e implementar estratégias para persistência de dados no navegador através do localStorage.
 
 ## Funcionalidades do Projeto
 
@@ -92,7 +97,7 @@ document.dispatchEvent(evento)
 
 ## Autor
 
-Meu nome é **Alexandre Coelho**, sou autor deste ReadMe e estudante de Desenvolvimento Web. Por meio da instrução de [**Luan Alves**](https://github.com/luanalvesdev), fiz esse projeto. Fiz algumas pequenas alterações do projeto original, como por exemplo poder ativar o "Cancelar" com o "Esc" e o reset do timer após a finalização dele. No demais, o código foram entregues e ensinados no curso.
+Meu nome é **Alexandre Coelho**, sou autor deste ReadMe e estudante de Desenvolvimento Web. Por meio das instruções de [**Luan Alves**](https://github.com/luanalvesdev) e [**Vinicios Neves**](https://github.com/viniciosneves), fiz esse projeto. Fiz algumas pequenas alterações do projeto original, como por exemplo poder ativar o "Cancelar" com o "Esc" e o reset do timer após a finalização dele. No demais, o código foram entregues e ensinados no curso.
 
 Logo abaixo estão os meus principais links, fique a vontade de acessar o que mais lhe interessar:
 
