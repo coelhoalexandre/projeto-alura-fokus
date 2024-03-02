@@ -22,7 +22,7 @@
 
 ## Sobre o Projeto
 
-Esse projeto foi feito com a instrução de Luan Alves, instrutor da Alura.
+Esse projeto foi feito com a instrução de [**Luan Alves**](https://github.com/luanalvesdev), instrutor da Alura.
 
 No [curso](https://cursos.alura.com.br/course/javascript-manipulando-elementos-dom) ele ensina a manipular os elementos no DOM por meio do JavaScript.
 
@@ -92,10 +92,7 @@ document.dispatchEvent(evento)
 
 ## Autor
 
-- Nome(s), redes e forma de contato. 
-- Talvez um breve resumo sobre cada um.
-
-Meu nome é **Alexandre Coelho**, sou autor deste ReadMe e estudante de Desenvolvimento Web. [Falar sobre meu papel no projeto, seu eu fiz tudo ou só modifiquei.
+Meu nome é **Alexandre Coelho**, sou autor deste ReadMe e estudante de Desenvolvimento Web. Por meio da instrução de [**Luan Alves**](https://github.com/luanalvesdev), fiz esse projeto. Fiz algumas pequenas alterações do projeto original, como por exemplo poder ativar o "Cancelar" com o "Esc" e o reset do timer após a finalização dele. No demais, o código foram entregues e ensinados no curso.
 
 Logo abaixo estão os meus principais links, fique a vontade de acessar o que mais lhe interessar:
 
