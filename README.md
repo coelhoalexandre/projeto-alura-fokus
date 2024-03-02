@@ -44,11 +44,29 @@ No [curso](https://cursos.alura.com.br/course/javascript-manipulando-elementos-d
 - **Começar/Pausar:** Ao pressionar o botão "Começar" o timer irá se iniciar/retomar e botão irá alterar para "Pausar". Pressionando "Pausar" o timer para e o botão altera para "Começar". Padrão: Começar
 - **Timer Zerado:** Quando o timer chegar a 0 irá começar a tocar um beep e um alert informará "Tempo finalizado!". Em seguida o timer voltará ao seu valor inicial.
 
+<br>
+
+<div align="center" >
 <img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/fokus-lista-de-tarefas.png" alt="Lista de Tarefas">
+</div>
+
+- **Adicionar nova tarefa:** Abre o formulario "Adicionando tarefa"
+- **Deletar:** Apaga o texto digitado na parte "No que você está trabalhando?".
+- **Cancelar/Esc:** Fecha o formulario.
+- **Salvar:** Armazena o texto digitado no localStorage e apresenta na "Lista de tarefas:" como uma nova tarefa.
+- **Clicar na tarefa:** Essa ação faz com que surja uma borda branca em volta dela e seu nome vá para a parte "#Em andamento:"
+- **Lapis de Edição:** Aparece um prompt questionando o novo nome e ao ser escolhido altera-o. Deixa a caixa vazia ou cancelar não mudará o nome.
+- **Limpar tarefas concluídas:** Apaga somente as tarefas concluídas da lista.
+- **Limpar todas tarefas:** Apaga todas as tarefas da lista.
+- **Timer Zerado com tarefa '#Em Andamento':** A tarefa não estará mais em andamento e assumirá uma cor verde. Além disso, ela não pode ser clicacada e seu nome não pode ser alterado.
+
+Obs.: Todas as tarefas e seus atributos são salvos no seu localStorage, por isso mesmo que reset a página as informações ainda estaram salvas no seu site.
 
 ## Tecnolgias Utilizadas
 
-
+1. HTML
+2. CSS
+3. JS
 
 ## Layouts
 
